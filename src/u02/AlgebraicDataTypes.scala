@@ -7,8 +7,8 @@ object AlgebraicDataTypes extends App:
     case Teacher(name: String, course: String)
 
   def name(p: Person): String = p match
-    case Person.Student(n, _) => n
-    case Person.Teacher(n, _) => n
+      case Person.Student(n, _) => n
+      case Person.Teacher(n, _) => n
 
   println(name(Person.Student("mario", 2015)))
 
