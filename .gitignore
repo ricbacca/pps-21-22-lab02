@@ -4,3 +4,8 @@ out/
 .idea/tasks.xml
 .idea/shelf
 .scalafmt.conf
+.idea/codeStyles/Project.xml
+src/u02/project/**
+src/u02/target/**
+*.DS_Store
+pps-lab02.iml
